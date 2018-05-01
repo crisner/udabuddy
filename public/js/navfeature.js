@@ -28,7 +28,7 @@ $(document).ready(function() {
     })
 
     setInterval(checkScrolled, 250);
-    setInterval(removeNavClass, 6000);
+    setInterval(removeNavClass, 3000);
 
     // Check if window is scrolled
     function checkScrolled() {
